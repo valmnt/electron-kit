@@ -1,0 +1,23 @@
+body{
+    background-color:#424549;
+    overflow:hidden;
+}
+.link{
+    color: white;
+}
+.link:hover{
+    color: white;
+}
+.main_cards{
+    width: 20%;
+}
+.main_tools{
+    padding: 2%;
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+h1{
+    margin-left: 3%;
+    color: white;
+}
