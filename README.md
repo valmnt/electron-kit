@@ -9,7 +9,7 @@ Mais en plus de cela il embarque quelques fonctionnalitées facilitant la naviga
 * Possibilité d'insérer un nom d'utilisateur
 * Possibilité de faire une recherche sur Internet
 
-### <center>Interface lors du lancement de l'application :</center>
+### [center]Interface lors du lancement de l'application :[/center]
 
 !['Auth'](img/auth.PNG)
 
