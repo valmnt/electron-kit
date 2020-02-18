@@ -1,5 +1,6 @@
 body{
     background-color:#424549;
+    background-image: url(assets/bg.png);
     overflow:hidden;
 }
 .link{
@@ -129,4 +130,32 @@ h1{
 .tools:hover{
     color: #7289da;
     cursor: pointer;
+}
+.google{
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 10%;
+    width: 30%;
+    border: solid 4px #7289da;  
+    border-radius: 25px;
+    margin-left: 33.5%;
+    outline:  none;
+    box-shadow: -1px 3px 5px 1px rgba(0, 0, 0, 0.7); 
+    z-index: 1000;
+}
+.search{
+    border-radius: 25px;
+    outline:  none;
+}
+.google:hover{
+    box-shadow: -1px 6px 5px 1px rgba(0, 0, 0, 0.7); 
+    outline:  none;
+}
+.card-footer{
+    background-color: white;
+    opacity: 0.8;
+}
+.del:hover{
+    cursor: pointer;
+    box-shadow: -1px 1px 2px 1px rgba(0, 0, 0, 0.7); 
 }

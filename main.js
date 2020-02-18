@@ -10,7 +10,7 @@ var win = null;
 // Main App
 app.on('ready', function () {
     win = new BrowserWindow({
-        width: 1920, height: 1080, frame: true, resizable: true, fullscreen: true, backgroundColor: '#424549', webPreferences: {
+        width: 1920, height: 1080, frame: true, resizable: true, fullscreen: true, backgroundColor: '#424549', icon: 'views/assets/cursor.ico', webPreferences: {
             nodeIntegration: true
         }
     });
