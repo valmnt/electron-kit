@@ -10,7 +10,7 @@ var win = null;
 // Main App
 app.on('ready', function () {
     win = new BrowserWindow({
-        width: 1920, height: 1080, frame: true, resizable: true, fullscreen: true, webPreferences: {
+        width: 1920, height: 1080, frame: true, resizable: true, fullscreen: true, backgroundColor: '#424549', webPreferences: {
             nodeIntegration: true
         }
     });
@@ -26,7 +26,7 @@ app.on('ready', function () {
                     {
                         label: 'Accueil',
                         click: function () {
-                            win.loadURL(`file://${__dirname}/views/index.html`);
+                            win.loadURL(`file://${__dirname}/views/tools.html`);
                         }
                     },
                 ]
@@ -36,7 +36,15 @@ app.on('ready', function () {
         const Menu = menu.buildFromTemplate(template);
 
         Menu.append(new MenuItem({
-            label: 'Login : ' + arg
+            label: 'Login : ' + arg,
+            submenu: [
+                {
+                    label: 'Change Username',
+                    click: function () {
+                        win.loadFile('views/home.html')
+                    }
+                }
+            ],
         }))
 
         Menu.append(new MenuItem({
@@ -64,8 +72,8 @@ app.on('ready', function () {
 
     const Menu = menu.buildFromTemplate(template);
     menu.setApplicationMenu(Menu)
-
     win.loadFile('views/home.html');
+
 });
 
 // Option App

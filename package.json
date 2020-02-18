@@ -14,6 +14,7 @@
   },
   "dependencies": {
     "mousetrap": "^1.6.5",
+    "mysql": "^2.18.1",
     "node-notifier": "^6.0.0"
   }
 }

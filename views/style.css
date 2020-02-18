@@ -52,9 +52,81 @@ h1{
     border-radius: 25px;
     background-color:  	#7289da;
     border: solid 2px white;
+    color: white;
 }
 #submit:hover{
     background-color: white;
+    border:solid 2px #7289da;
+    color: #7289da;
     cursor: pointer;
     outline:  none;
+}
+#submit_form{
+    margin-top: 2%;
+    width: 10%;
+    height: 10%;
+    border-radius: 25px;
+    background-color:  	#7289da;
+    border: solid 2px white;
+    color: white;
+    outline:  none; 
+}
+#submit_form:hover{
+    background-color: white;
+    border: solid 2px #7289da;
+    color: #7289da;
+    cursor: pointer;
+    outline:  none;
+}
+.addlink{
+    height: 5%;
+    width: 8%;
+    border: 3px white solid;
+    border-radius: 25px;
+    background-color: #7289da;
+    font-weight: bold;
+    margin-left: 45%;
+    bottom: 0;
+    margin-bottom: 5%;
+    position: absolute;
+    z-index: 1000;
+    box-shadow: -1px 2px 5px 1px rgba(0, 0, 0, 0.7); 
+    outline:  none;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+.addlink:hover{
+    text-decoration: none;
+    color: #7289da;
+    background-color: white;
+    border-color: #7289da;
+}
+.form{
+    width: 50%;
+    height: 250px;
+    margin-left: 22%;
+    margin-top: 10%;
+    padding-left: 8%;
+    padding-top: 5%;
+}
+.input_web{
+    width: 80%;
+    margin-bottom: 2%;
+    height: 15%;
+    border-radius: 25px;
+    border: solid 3px white;
+    padding-left: 1%;
+    outline: none;
+}
+.input_web:hover{
+    outline: none;
+    border: solid 5px white;
+    border-color: #7289da;
+}
+.tools:hover{
+    color: #7289da;
+    cursor: pointer;
 }
