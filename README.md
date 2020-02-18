@@ -11,25 +11,25 @@ Mais en plus de cela il embarque quelques fonctionnalitées facilitant la naviga
 
 ### Interface lors du lancement de l'application :
 
-!['Auth'](img/auth.png)
+!['Auth'](img/auth.PNG)
 
 *Renseignement du nom d'utilisateur*
 
 ### Liste des sites utilitaires 
 
-!['Tools'](img/tools.png)
+!['Tools'](img/tools.PNG)
 
 *Liste des sites utilitaires qu'on à ajouté en favoris* (*Liste non exhaustive*)
 
 ### Listes des sites de documentation :
 
-!['Docs'](img/docs.png)
+!['Docs'](img/docs.PNG)
 
 *Liste des sites de documentation qu'on à ajouté en favoris* (*Liste non exhaustive*)
 
 ### Interface d'ajout d'un site en favoris :
 
-!['Docs'](add.png)
+!['Add'](img/add.PNG)
 
 * Nom du site
 * URL du site
