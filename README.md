@@ -21,7 +21,7 @@ Mais en plus de cela il embarque quelques fonctionnalitées facilitant la naviga
 
 *Liste des sites utilitaires qu'on à ajouté en favoris* (*Liste non exhaustive*)
 
-### Listes des sites de documentation :
+### Liste des sites de documentation :
 
 !['Docs'](img/docs.PNG)
 
@@ -37,6 +37,7 @@ Mais en plus de cela il embarque quelques fonctionnalitées facilitant la naviga
 * Typage (Documentations ou Tools)
 
 *Documentations = sites de documentation*
+
 *Tools = sites utilitaires*
 
 ##### Version : 0.0.4
