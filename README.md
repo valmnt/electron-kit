@@ -1,6 +1,6 @@
 # Engine Browser 🌐
 
-Engine Browser est un micro navigateur web permettant de pouvoir faire des recherches sur internet via le moteur Google.
+Engine Browser est un navigateur web privé permettant de pouvoir faire des recherches sur internet via le moteur Google.
 
 Mais en plus de cela il embarque quelques fonctionnalitées facilitant la navigation.
 
