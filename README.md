@@ -9,25 +9,25 @@ Mais en plus de cela il embarque quelques fonctionnalitées facilitant la naviga
 * Possibilité d'insérer un nom d'utilisateur
 * Possibilité de faire une recherche sur Internet
 
-### Interface lors du lancement de l'application :
+### <center>Interface lors du lancement de l'application :</center>
 
 !['Auth'](img/auth.PNG)
 
-*Renseignement du nom d'utilisateur*
+<center>*Renseignement du nom d'utilisateur*</center>
 
-### Liste des sites utilitaires 
+### <center>Liste des sites utilitaires : </center>
 
 !['Tools'](img/tools.PNG)
 
-*Liste des sites utilitaires qu'on à ajouté en favoris* (*Liste non exhaustive*)
+<center>*Liste des sites utilitaires qu'on à ajouté en favoris* (*Liste non exhaustive*)</center>
 
-### Listes des sites de documentation :
+### <center>Listes des sites de documentation :</center>
 
 !['Docs'](img/docs.PNG)
 
-*Liste des sites de documentation qu'on à ajouté en favoris* (*Liste non exhaustive*)
+<center>*Liste des sites de documentation qu'on à ajouté en favoris* (*Liste non exhaustive*)</center>
 
-### Interface d'ajout d'un site en favoris :
+### <center>Interface d'ajout d'un site en favoris :</center>
 
 !['Add'](img/add.PNG)
 
@@ -36,8 +36,8 @@ Mais en plus de cela il embarque quelques fonctionnalitées facilitant la naviga
 * URL d'une image qu'on souhaite attribué
 * Typage (Documentations ou Tools)
 
-*Documentations = sites de documentation*
-*Tools = sites utilitaires*
+<center>*Documentations = sites de documentation*
+*Tools = sites utilitaires*</center>
 
 ##### Version : 0.0.4
 
