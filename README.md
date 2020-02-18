@@ -29,7 +29,7 @@ Mais en plus de cela il embarque quelques fonctionnalitées facilitant la naviga
 
 ### Interface d'ajout d'un site en favoris :
 
-!['Docs'](img/add.png)
+!['Docs'](add.png)
 
 * Nom du site
 * URL du site
