@@ -21,27 +21,22 @@ app.on('ready', function () {
         }
         const template = [
             {
-                label: 'Navigation',
-                submenu: [
-                    {
-                        label: 'Accueil',
-                        click: function () {
-                            win.loadURL(`file://${__dirname}/views/tools.html`);
-                        }
-                    },
-                ]
+                label: 'Accueil',
+                click: function () {
+                    win.loadURL(`file://${__dirname}/views/tools.html`);
+                }
             }
         ]
 
         const Menu = menu.buildFromTemplate(template);
 
         Menu.append(new MenuItem({
-            label: 'Login : ' + arg,
+            label: 'User : ' + arg,
             submenu: [
                 {
                     label: 'Change Username',
                     click: function () {
-                        win.loadFile('views/home.html')
+                        win.loadFile('views/changeUsername.html')
                     }
                 },
                 {
@@ -64,15 +59,10 @@ app.on('ready', function () {
 
     const template = [
         {
-            label: 'Navigation',
-            submenu: [
-                {
-                    label: 'Accueil',
-                    click: function () {
-                        win.loadURL(`file://${__dirname}/views/home.html`);
-                    }
-                },
-            ]
+            label: 'Accueil',
+            click: function () {
+                win.loadURL(`file://${__dirname}/views/home.html`);
+            }
         }
     ]
 
