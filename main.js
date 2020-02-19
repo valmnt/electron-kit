@@ -43,6 +43,12 @@ app.on('ready', function () {
                     click: function () {
                         win.loadFile('views/home.html')
                     }
+                },
+                {
+                    label: 'Change profil picture',
+                    click: function () {
+                        win.loadFile('views/profil.html')
+                    }
                 }
             ],
         }))

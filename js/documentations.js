@@ -38,7 +38,8 @@ function integrationHTML() {
             html += '</div>'
             html += '<div class="card-footer">'
             html += "<button style='background-color: #7289da; border-radius: 25px;' class='button secondary'><a style='color: white;' class='link' href='" + row.url + "'>" + row.name + "</a ></button > "
-            html += "<a class='delink' href='documentations.html'><img onclick='del(" + row.id + ")' class='del' src='assets/delete.png' style='width:15%; height:15%; margin-left: 80%;'></a>"
+            html += "<a class='delink' href='update.html'><img class='del' src='assets/write.png' style='width:30%; height:30%; margin-left: 80%;'></a>"
+            html += "<a class='delink' href='documentations.html'><img onclick='del(" + row.id + ")' class='del' src='assets/delete.png' style='width:30%; height:30%; margin-left: 60%;'></a>"
             html += '</div>'
             html += '</div>'
             html += '</div>'
